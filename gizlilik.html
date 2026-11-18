@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monarch Gizlilik Politikası</title>
+<style>
+  :root { --zemin: #faf9f6; --yazi: #1d2433; --silik: #5b6475; --cizgi: #e3e1db; --vurgu: #1e3a6b; }
+  @media (prefers-color-scheme: dark) { :root { --zemin: #16181d; --yazi: #e8e6e1; --silik: #a3a8b3; --cizgi: #2b2f38; --vurgu: #9db8e8; } }
+  body { margin: 0; background: var(--zemin); color: var(--yazi); font: 16px/1.65 system-ui, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  .silik { color: var(--silik); font-size: 14px; }
+  a { color: var(--vurgu); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gizlilik Politikası</h1>
+  <p class="silik">Monarch · Son güncelleme: 19.11.2026</p>
+
+  <h2>Veriler nerede tutulur</h2>
+  <p>Monarch'ın UYAP'tan indirdiği dava dosyaları, evraklar, taslaklar ve çalışma oturumları kullanıcının kendi
+    bilgisayarında tutulur. Bunlar Monarch'ın geliştiricisine gönderilmez.</p>
+
+  <h2>Google hesabı (Oturum Eşitleme)</h2>
+  <p>Oturum Eşitleme isteğe bağlıdır ve kullanıcı açmadıkça Google'a bağlanılmaz. Kullanıcı bağlandığında Monarch
+    yalnız şu izinleri ister:</p>
+  <ul>
+    <li><b>Google Drive (drive.file):</b> Monarch yalnız kendi oluşturduğu "Monarch Eşitleme" klasöründeki dosyaları
+      görür ve yönetir. Kullanıcının Drive'daki diğer dosyalarına erişemez.</li>
+    <li><b>E-posta adresi:</b> yalnız Ayarlar'da hangi Google hesabının bağlı olduğunu göstermek için.</li>
+  </ul>
+  <p>Kullanıcının Uzaktan Erişim'i açtığı çalışma oturumları (konuşma, taslaklar, notlar, dosyanın metin hali) bu
+    klasöre yüklenir ve kullanıcının öbür bilgisayarındaki Monarch tarafından okunur. Google'dan alınan veriler
+    Monarch'ın geliştiricisine ya da üçüncü kişilere gönderilmez, satılmaz, reklam ve yapay zeka modeli eğitimi için
+    kullanılmaz. Google erişim anahtarı yalnız kullanıcının bilgisayarında (Windows Kimlik Bilgisi Yöneticisi)
+    saklanır.</p>
+  <p>Monarch'ın Google API'lerinden aldığı bilgileri kullanımı, Sınırlı Kullanım (Limited Use) koşulları dahil
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+    Policy</a>'ye uyar.</p>
+  <p>Kullanıcı bağlantıyı istediği an Ayarlar → Hesap → Oturum eşitleme → <i>Bağlantıyı kes</i> ile koparabilir;
+    <i>Buluttaki dosyaları sil</i> ile Drive'daki eşitleme dosyalarını silebilir. Erişim ayrıca Google hesabının
+    <a href="https://myaccount.google.com/permissions">üçüncü taraf erişim</a> sayfasından kaldırılabilir.</p>
+
+  <h2>Monarch hesabı</h2>
+  <p>Kullanıcının aynı hesapla birden çok bilgisayarda girebilmesi için hesap sunucusunda şunlar tutulur: kullanıcı
+    adı, görünen ad, şifreden türetilmiş bir doğrulama değeri (şifrenin kendisi değil), T.C. kimlik numarasının geri
+    çevrilemeyen özeti ve arayüz tercihleri. Dava dosyası ve evrak sunucuya gönderilmez.</p>
+
+  <h2>Claude</h2>
+  <p>Çalışma oturumları kullanıcının kendi Claude hesabıyla, kullanıcının bilgisayarındaki Claude Code üzerinden
+    çalışır; bu iletişim Anthropic'in koşullarına tabidir.</p>
+
+  <h2>Sorun bildirimi</h2>
+  <p>Kullanıcı uygulamadaki <i>Sorun bildir</i> formunu gönderirse yazdığı metin geliştiriciye iletilir.</p>
+
+  <h2>İletişim</h2>
+  <p><a href="mailto:mustafafurkanmazi@gmail.com">mustafafurkanmazi@gmail.com</a></p>
+</main>
+</body>
+</html>
